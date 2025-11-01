@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Souls Like Keybinds">
+    <meta name="keywords" content="HTML, CSS, JavaScript, jQuery">
+    <meta name="author" content="Jack Gardner">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souls Like Keybinds</title>
+    <!-- Styles & Scripts -->
+    <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/combo.css">
+    <link rel="stylesheet" href="assets/css/keyboard.css">
+    <script src="assets/js/keys.js" defer></script>
+    <script src="assets/js/lighting.js" defer></script>
+    <script src="assets/js/projects.js" defer></script>
+    <!-- Imports -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/39ebcef0ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Nav -->
+    <div class="btn-group">
+        <!-- <a href="#" id="hide-button" class="btn btn-secondary target">-</a> -->
+        <a href="#" id="p1-button" class="btn btn-secondary target">Star Wars: Jedi Fallen Order</a>
+        <a href="#" id="p2-button" class="btn btn-secondary target">Elden Ring</a>
+        <a href="#" id="p3-button" class="btn btn-secondary target">Dark Souls 3</a>
+    </div>
+    <!-- Content -->
+    <!-- Star Wars: Jedi Fallen Order -->
+    <div class="p1-content" hidden>
+        <!-- Left Side Content -->
+        <div class="contentCombos">
+            <h3>Star Wars: Jedi Fallen Order</h3>
+            <!-- Combo 1 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 2 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 3 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 4 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 5 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 6 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+        </div>
+        <!-- Right Side Content -->
+        <div class="contentKeyboard">
+            <!-- Keyboard -->
+            <div class="keyboard-fo">
+                <ul class="row row-0">
+                    <li class="key" id="esc-fo">`</li>
+                    <li class="bound" id="one-fo">1</li>
+                    <li class="bound" id="two-fo">2</li>
+                    <li class="key" id="3-fo">3</li>
+                    <li class="key" id="4-fo">4</li>
+                    <li class="key" id="5-fo">5</li>
+                    <li class="key" id="6-fo">6</li>
+                    <li class="key" id="7-fo">7</li>
+                    <li class="key" id="8-fo">8</li>
+                    <li class="key" id="9-fo">9</li>
+                    <li class="key" id="10-fo">0</li>
+                    <li class="key" id="--fo">-</li>
+                    <li class="key" id="+-fo">+</li>
+                    <li class="key" id="back-fo">BACK</li>
+                </ul>
+                <ul class="row row-1">
+                    <li class="bound" id="tab-fo">TAB</li>
+                    <li class="bound" id="Q-fo">Q</li>
+                    <li class="bound" id="W-fo">W</li>
+                    <li class="bound" id="E-fo">E</li>
+                    <li class="bound" id="R-fo">R</li>
+                    <li class="bound" id="T-fo">T</li>
+                    <li class="bound" id="Y-fo">Y</li>
+                    <li class="key" id="U-fo">U</li>
+                    <li class="key" id="I-fo">I</li>
+                    <li class="bound" id="O-fo">O</li>
+                    <li class="bound" id="P-fo">P</li>
+                    <li class="key" id="[-fo">[</li>
+                    <li class="key" id="]-fo">]</li>
+                    <li class="key" id="\-fo">\</li>
+                </ul>
+                <ul class="row row-2">
+                    <li class="key" id="caps-fo">CAPS</li>
+                    <li class="bound" id="A-fo">A</li>
+                    <li class="bound" id="S-fo">S</li>
+                    <li class="bound" id="D-fo">D</li>
+                    <li class="bound" id="F-fo">F</li>
+                    <li class="bound" id="G-fo">G</li>
+                    <li class="bound" id="H-fo">H</li>
+                    <li class="key" id="J-fo">J</li>
+                    <li class="key" id="K-fo">K</li>
+                    <li class="key" id="L-fo">L</li>
+                    <li class="key" id=":-fo">:</li>
+                    <li class="key" id="''-fo">''</li>
+                    <li class="key" id="enter-fo">ENTER</li>
+                </ul>
+                <ul class="row row-3">
+                    <li class="bound" id="left-shift-fo">SHIFT</li>
+                    <li class="bound" id="Z-fo">Z</li>
+                    <li class="bound" id="X-fo">X</li>
+                    <li class="bound" id="C-fo">C</li>
+                    <li class="bound" id="V-fo">V</li>
+                    <li class="bound" id="B-fo">B</li>
+                    <li class="bound" id="N-fo">N</li>
+                    <li class="bound" id="M-fo">M</li>
+                    <li class="key" id=",-fo">,</li>
+                    <li class="key" id=".-fo">.</li>
+                    <li class="key" id=";-fo">;</li>
+                    <li class="key" id="right-shift-fo">SHIFT</li>
+                </ul>
+                <ul class="row row-4">
+                    <li class="bound" id="left-ctrl-fo">CTRL</li>
+                    <li class="key" id="windows-fo">⊞</li>
+                    <li class="key" id="left-alt-fo">ALT</li>
+                    <li class="bound" id="space-fo">SPACE</li>
+                    <li class="key" id="right-ctrl-fo">ALT</li>
+                    <li class="key" id="fn-fo">FN</li>
+                    <li class="key" id="menu-fo">MENU</li>
+                    <li class="key" id="right-ctrl-fo">CTRL</li>
+                </ul>
+            </div>
+            <div class="bind-fo">
+                <div id="one-foInfo">1 - 1st Weapon</div>
+                <div id="two-foInfo">2 - 2nd Weapon</div>
+                <div id="tab-foInfo">Tab - Scoreboard</div>
+                <div id="Q-foInfo">Q - Ultimate</div>
+                <div id="W-foInfo">W - Forward</div>
+                <div id="E-foInfo">E - 2nd Ability</div>
+                <div id="R-foInfo">R - Reload</div>
+                <div id="T-foInfo">T - Top Spray</div>
+                <div id="Y-foInfo">Y - Spray Menu</div>
+                <div id="O-foInfo">O - Friends List</div>
+                <div id="P-foInfo">P - Group/Lobby</div>
+                <div id="A-foInfo">A - Left</div>
+                <div id="S-foInfo">S - Backwards</div>
+                <div id="D-foInfo">D - Right</div>
+                <div id="F-foInfo">F - Interact</div>
+                <div id="G-foInfo">G - Ping</div>
+                <div id="H-foInfo">H - Hero Select</div>
+                <div id="left-shift-foInfo">Shift - 1st Ability</div>
+                <div id="Z-foInfo">Z - I need Healing</div>
+                <div id="X-foInfo">X - Ultimate Status</div>
+                <div id="C-foInfo">C - Crouch</div>
+                <div id="V-foInfo">V - Melee</div>
+                <div id="B-foInfo">B - Push to Talk</div>
+                <div id="N-foInfo">N - Go In</div>
+                <div id="M-foInfo">M - Communication Menu</div>
+                <div id="left-ctrl-foInfo">CTRL - Crouch</div>
+                <div id="space-foInfo">Space - Jump</div>
+            </div>
+        </div>
+    </div>
+    <!-- Elden Ring -->
+    <div class="p2-content" hidden>
+        <div class="contentCombos">
+            <h3>Elden Ring</h3>
+            <!-- Combo 1 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 2 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 3 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 4 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 5 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 6 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+        </div>
+        <div class="contentKeyboard">
+             <div class="keyboard-er">
+                <ul class="row row-0">
+                    <li class="key" id="esc-er">`</li>
+                    <li class="bound" id="one-er">1</li>
+                    <li class="bound" id="two-er">2</li>
+                    <li class="key" id="3-er">3</li>
+                    <li class="key" id="4-er">4</li>
+                    <li class="key" id="5-er">5</li>
+                    <li class="key" id="6-er">6</li>
+                    <li class="key" id="7-er">7</li>
+                    <li class="key" id="8-er">8</li>
+                    <li class="key" id="9-er">9</li>
+                    <li class="key" id="10-er">0</li>
+                    <li class="key" id="--er">-</li>
+                    <li class="key" id="+-er">+</li>
+                    <li class="key" id="back-er">BACK</li>
+                </ul>
+                <ul class="row row-1">
+                    <li class="bound" id="tab-er">TAB</li>
+                    <li class="bound" id="Q-er">Q</li>
+                    <li class="bound" id="W-er">W</li>
+                    <li class="bound" id="E-er">E</li>
+                    <li class="bound" id="R-er">R</li>
+                    <li class="bound" id="T-er">T</li>
+                    <li class="bound" id="Y-er">Y</li>
+                    <li class="key" id="U-er">U</li>
+                    <li class="key" id="I-er">I</li>
+                    <li class="bound" id="O-er">O</li>
+                    <li class="bound" id="P-er">P</li>
+                    <li class="key" id="[-er">[</li>
+                    <li class="key" id="]-er">]</li>
+                    <li class="key" id="\-er">\</li>
+                </ul>
+                <ul class="row row-2">
+                    <li class="key" id="caps-er">CAPS</li>
+                    <li class="bound" id="A-er">A</li>
+                    <li class="bound" id="S-er">S</li>
+                    <li class="bound" id="D-er">D</li>
+                    <li class="bound" id="F-er">F</li>
+                    <li class="bound" id="G-er">G</li>
+                    <li class="bound" id="H-er">H</li>
+                    <li class="key" id="J-er">J</li>
+                    <li class="key" id="K-er">K</li>
+                    <li class="key" id="L-er">L</li>
+                    <li class="key" id=":-er">:</li>
+                    <li class="key" id="''-er">''</li>
+                    <li class="key" id="enter-er">ENTER</li>
+                </ul>
+                <ul class="row row-3">
+                    <li class="bound" id="left-shift-er">SHIFT</li>
+                    <li class="bound" id="Z-er">Z</li>
+                    <li class="bound" id="X-er">X</li>
+                    <li class="bound" id="C-er">C</li>
+                    <li class="bound" id="V-er">V</li>
+                    <li class="bound" id="B-er">B</li>
+                    <li class="bound" id="N-er">N</li>
+                    <li class="bound" id="M-er">M</li>
+                    <li class="key" id=",-er">,</li>
+                    <li class="key" id=".-er">.</li>
+                    <li class="key" id=";-er">;</li>
+                    <li class="key" id="right-shift-er">SHIFT</li>
+                </ul>
+                <ul class="row row-4">
+                    <li class="bound" id="left-ctrl-er">CTRL</li>
+                    <li class="key" id="windows-er">⊞</li>
+                    <li class="key" id="left-alt-er">ALT</li>
+                    <li class="bound" id="space-er">SPACE</li>
+                    <li class="key" id="right-ctrl-er">ALT</li>
+                    <li class="key" id="fn-er">FN</li>
+                    <li class="key" id="menu-er">MENU</li>
+                    <li class="key" id="right-ctrl-er">CTRL</li>
+                </ul>
+            </div>
+            <div class="bind-er">
+                <div id="one-erInfo">1 - 1st Weapon</div>
+                <div id="two-erInfo">2 - 2nd Weapon</div>
+                <div id="tab-erInfo">Tab - Scoreboard</div>
+                <div id="Q-erInfo">Q - Ultimate</div>
+                <div id="W-erInfo">W - Forward</div>
+                <div id="E-erInfo">E - 2nd Ability</div>
+                <div id="R-erInfo">R - Reload</div>
+                <div id="T-erInfo">T - Top Spray</div>
+                <div id="Y-erInfo">Y - Spray Menu</div>
+                <div id="O-erInfo">O - Friends List</div>
+                <div id="P-erInfo">P - Group/Lobby</div>
+                <div id="A-erInfo">A - Left</div>
+                <div id="S-erInfo">S - Backwards</div>
+                <div id="D-erInfo">D - Right</div>
+                <div id="F-erInfo">F - Interact</div>
+                <div id="G-erInfo">G - Ping</div>
+                <div id="H-erInfo">H - Hero Select</div>
+                <div id="left-shift-erInfo">Shift - 1st Ability</div>
+                <div id="Z-erInfo">Z - I need Healing</div>
+                <div id="X-erInfo">X - Ultimate Status</div>
+                <div id="C-erInfo">C - Crouch</div>
+                <div id="V-erInfo">V - Melee</div>
+                <div id="B-erInfo">B - Push to Talk</div>
+                <div id="N-erInfo">N - Go In</div>
+                <div id="M-erInfo">M - Communication Menu</div>
+                <div id="left-ctrl-erInfo">CTRL - Crouch</div>
+                <div id="space-erInfo">Space - Jump</div>
+            </div>
+        </div>
+    </div>
+    <!-- Dark Souls 3 -->
+    <div class="p3-content" hidden>
+        <div class="contentCombos">
+            <h3>Dark Souls 3</h3>
+            <!-- Combo 1 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 2 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 3 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 4 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 5 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+            <!-- Combo 6 -->
+            <div class="combos" aria-label="combos row">
+                <div class="combo-box"><span class="combo-text">Light Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">+</div>
+                <div class="combo-box"><span class="combo-text">Heavy Attack</span></div>
+                <div class="combo-operator" aria-hidden="true">=</div>
+                <div class="combo-box combo-result"><span class="combo-text">Stagger</span></div>
+            </div>
+        </div>
+        <div class="contentKeyboard">
+            <div class="keyboard-ds">
+                <ul class="row row-0">
+                    <li class="key" id="esc-ds">`</li>
+                    <li class="bound" id="one-ds">1</li>
+                    <li class="bound" id="two-ds">2</li>
+                    <li class="key" id="3-ds">3</li>
+                    <li class="key" id="4-ds">4</li>
+                    <li class="key" id="5-ds">5</li>
+                    <li class="key" id="6-ds">6</li>
+                    <li class="key" id="7-ds">7</li>
+                    <li class="key" id="8-ds">8</li>
+                    <li class="key" id="9-ds">9</li>
+                    <li class="key" id="10-ds">0</li>
+                    <li class="key" id="--ds">-</li>
+                    <li class="key" id="+-ds">+</li>
+                    <li class="key" id="back-ds">BACK</li>
+                </ul>
+                <ul class="row row-1">
+                    <li class="bound" id="tab-ds">TAB</li>
+                    <li class="bound" id="Q-ds">Q</li>
+                    <li class="bound" id="W-ds">W</li>
+                    <li class="bound" id="E-ds">E</li>
+                    <li class="bound" id="R-ds">R</li>
+                    <li class="bound" id="T-ds">T</li>
+                    <li class="bound" id="Y-ds">Y</li>
+                    <li class="key" id="U-ds">U</li>
+                    <li class="key" id="I-ds">I</li>
+                    <li class="bound" id="O-ds">O</li>
+                    <li class="bound" id="P-ds">P</li>
+                    <li class="key" id="[-ds">[</li>
+                    <li class="key" id="]-ds">]</li>
+                    <li class="key" id="\-ds">\</li>
+                </ul>
+                <ul class="row row-2">
+                    <li class="key" id="caps-ds">CAPS</li>
+                    <li class="bound" id="A-ds">A</li>
+                    <li class="bound" id="S-ds">S</li>
+                    <li class="bound" id="D-ds">D</li>
+                    <li class="bound" id="F-ds">F</li>
+                    <li class="bound" id="G-ds">G</li>
+                    <li class="bound" id="H-ds">H</li>
+                    <li class="key" id="J-ds">J</li>
+                    <li class="key" id="K-ds">K</li>
+                    <li class="key" id="L-ds">L</li>
+                    <li class="key" id=":-ds">:</li>
+                    <li class="key" id="''-ds">''</li>
+                    <li class="key" id="enter-ds">ENTER</li>
+                </ul>
+                <ul class="row row-3">
+                    <li class="bound" id="left-shift-ds">SHIFT</li>
+                    <li class="bound" id="Z-ds">Z</li>
+                    <li class="bound" id="X-ds">X</li>
+                    <li class="bound" id="C-ds">C</li>
+                    <li class="bound" id="V-ds">V</li>
+                    <li class="bound" id="B-ds">B</li>
+                    <li class="bound" id="N-ds">N</li>
+                    <li class="bound" id="M-ds">M</li>
+                    <li class="key" id=",-ds">,</li>
+                    <li class="key" id=".-ds">.</li>
+                    <li class="key" id=";-ds">;</li>
+                    <li class="key" id="right-shift-ds">SHIFT</li>
+                </ul>
+                <ul class="row row-4">
+                    <li class="bound" id="left-ctrl-ds">CTRL</li>
+                    <li class="key" id="windows-ds">⊞</li>
+                    <li class="key" id="left-alt-ds">ALT</li>
+                    <li class="bound" id="space-ds">SPACE</li>
+                    <li class="key" id="right-ctrl-ds">ALT</li>
+                    <li class="key" id="fn-ds">FN</li>
+                    <li class="key" id="menu-ds">MENU</li>
+                    <li class="key" id="right-ctrl-ds">CTRL</li>
+                </ul>
+            </div>
+            <div class="bind-ds">
+                <div id="one-dsInfo">1 - 1st Weapon</div>
+                <div id="two-dsInfo">2 - 2nd Weapon</div>
+                <div id="tab-dsInfo">Tab - Scoreboard</div>
+                <div id="Q-dsInfo">Q - Ultimate</div>
+                <div id="W-dsInfo">W - Forward</div>
+                <div id="E-dsInfo">E - 2nd Ability</div>
+                <div id="R-dsInfo">R - Reload</div>
+                <div id="T-dsInfo">T - Top Spray</div>
+                <div id="Y-dsInfo">Y - Spray Menu</div>
+                <div id="O-dsInfo">O - Friends List</div>
+                <div id="P-dsInfo">P - Group/Lobby</div>
+                <div id="A-dsInfo">A - Left</div>
+                <div id="S-dsInfo">S - Backwards</div>
+                <div id="D-dsInfo">D - Right</div>
+                <div id="F-dsInfo">F - Interact</div>
+                <div id="G-dsInfo">G - Ping</div>
+                <div id="H-dsInfo">H - Hero Select</div>
+                <div id="left-shift-dsInfo">Shift - 1st Ability</div>
+                <div id="Z-dsInfo">Z - I need Healing</div>
+                <div id="X-dsInfo">X - Ultimate Status</div>
+                <div id="C-dsInfo">C - Crouch</div>
+                <div id="V-dsInfo">V - Melee</div>
+                <div id="B-dsInfo">B - Push to Talk</div>
+                <div id="N-dsInfo">N - Go In</div>
+                <div id="M-dsInfo">M - Communication Menu</div>
+                <div id="left-ctrl-dsInfo">CTRL - Crouch</div>
+                <div id="space-dsInfo">Space - Jump</div>
+            </div>
+        </div>
+    </div>
+    <!-- Toggle Theme -->
+    <button id="dark-mode-toggle" class="dark-mode-toggle">
+        <i onclick="changeIcon()" id="dark-mode-icon" class="fa-regular fa-sun fa-2xl" style="color: #b76e79;"></i>
+    </button>
+</body>
+</html>

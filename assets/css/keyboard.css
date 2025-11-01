@@ -1,0 +1,90 @@
+/* Board, rows and standard key sizes */
+
+.keyboard-fo, .keyboard-er, .keyboard-ds {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.3em;
+}
+
+li {
+    height: 3em;
+    width: 3em;
+    color: var(--background);
+    border-radius: 0.4em;
+    line-height: 3em;
+    letter-spacing: 1px;
+    margin: 0.4em;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Key sizes */
+
+#tab-fo, #tab-er, #tab-ds {
+    width: 5em;
+}
+
+#left-ctrl-fo, #windows-fo, #left-alt-fo, #right-alt-fo, #fn-fo, #menu-fo, #right-ctrl-fo,
+#left-ctrl-er, #windows-er, #left-alt-er, #right-alt-er, #fn-er, #menu-er, #right-ctrl-er,
+#left-ctrl-ds, #windows-ds, #left-alt-ds, #right-alt-ds, #fn-ds, #menu-ds, #right-ctrl-ds {
+    width: 4em;
+}
+
+#space-fo, #space-er, #space-ds {
+    width: 21em;
+}
+
+#caps-fo, #caps-er, #caps-ds {
+    width: 6em;
+}
+
+#left-shift-fo, #left-shift-er, #left-shift-ds {
+    width: 8em;
+}
+
+#enter-fo, #enter-er, #enter-ds {
+    width: 6em;
+}
+
+#right-shift-fo, #right-shift-er, #right-shift-ds {
+    width: 8em;
+}
+
+#back-fo, #back-er, #back-ds {
+    width: 5em;
+}
+
+.key {
+    background-color: var(--foreground);
+    color: var(--clr-accent);
+}
+
+.bound {
+    background-color: var(--clr-accent);
+    color: var(--background);
+}
+
+/* Toggle */
+
+#one-foInfo, #two-foInfo, #tab-foInfo, #Q-foInfo, #W-foInfo, #E-foInfo, #R-foInfo, #T-foInfo, #Y-foInfo, #O-foInfo, #P-foInfo, #A-foInfo, #S-foInfo, #D-foInfo, #F-foInfo, #G-foInfo, #H-foInfo, #left-shift-foInfo, #Z-foInfo, #X-foInfo, #C-foInfo, #V-foInfo, #B-foInfo, #N-foInfo, #M-foInfo, #left-ctrl-foInfo, #space-foInfo,
+#one-erInfo, #two-erInfo, #tab-erInfo, #Q-erInfo, #W-erInfo, #E-erInfo, #R-erInfo, #T-erInfo, #Y-erInfo, #O-erInfo, #P-erInfo, #A-erInfo, #S-erInfo, #D-erInfo, #F-erInfo, #G-erInfo, #H-erInfo, #left-shift-erInfo, #Z-erInfo, #X-erInfo, #C-erInfo, #V-erInfo, #B-erInfo, #N-erInfo, #M-erInfo, #left-ctrl-erInfo, #space-erInfo,
+#one-dsInfo, #two-dsInfo, #tab-dsInfo, #Q-dsInfo, #W-dsInfo, #E-dsInfo, #R-dsInfo, #T-dsInfo, #Y-dsInfo, #O-dsInfo, #P-dsInfo, #A-dsInfo, #S-dsInfo, #D-dsInfo, #F-dsInfo, #G-dsInfo, #H-dsInfo, #left-shift-dsInfo, #Z-dsInfo, #X-dsInfo, #C-dsInfo, #V-dsInfo, #B-dsInfo, #N-dsInfo, #M-dsInfo, #left-ctrl-dsInfo, #space-dsInfo {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--clr-accent);
+    background-color: var(--foreground);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: var(--background);
+    z-index: 1;
+}

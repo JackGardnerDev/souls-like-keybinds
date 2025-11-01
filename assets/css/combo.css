@@ -1,0 +1,69 @@
+/* Content Combos */
+
+.contentCombos {
+    margin: 0px;
+    position: absolute;
+    top: 11%;
+    left: 1%;
+}
+
+/* container for the 3-box + operators row */
+.combos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  /* margin-left: 1rem; */
+  margin-left: 10rem;
+  flex-wrap: wrap;
+}
+
+/* the outline boxes */
+.combo-box {
+  width: 100px;
+  height: 100px;
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 2px solid var(--foreground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  box-shadow: none;
+  font-weight: 700;
+  text-align: center;
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
+  color: var(--foreground);
+}
+
+/* slightly larger result box (optional) */
+/* .combo-box.combo-result {
+    border: 2px solid var(--clr-accent);
+    color: var(--clr-accent);
+} */
+
+/* text inside each box */
+.combo-text {
+  display: block;
+  padding: 0 0.25rem;
+}
+
+/* operator (+, =) */
+.combo-operator {
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--clr-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  width: 25px;
+  text-align: center;
+}
+
+/* responsive tweaks */
+@media (max-width: 520px) {
+  .combo-box { min-width: 88px; height: 64px; font-size: 0.95rem; }
+  .combo-box.combo-result { min-width: 110px; height: 72px; }
+  .combo-operator { font-size: 1.4rem; width: 22px; }
+}
